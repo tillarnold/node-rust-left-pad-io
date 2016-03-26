@@ -1,0 +1,13 @@
+[package]
+authors = ["Till Arnold <throwable42@gmail.com>"]
+license = "MIT"
+name = "node-rust-left-pad-io"
+version = "0.0.1"
+
+[dependencies]
+left-pad-io = "0.0.1"
+neon = "0.1"
+
+[lib]
+crate-type = ["dylib"]
+name = "node_rust_left_pad_io"
